@@ -10,20 +10,23 @@ An AI-powered web application that generates 10 high-quality MCQ questions for a
 
 ## 🛠️ Technology Stack
 - **Backend**: Python (Flask)
-- **AI Integration**: Groq Cloud API
+- **AI Integration**: Groq Llama-3 API
 - **Frontend**: HTML5, CSS3
 - **Environment Management**: Python-Dotenv
 
 ## 📂 Project Structure
 ```text
 .
-├── ai_quiz_app/
-│   ├── static/         # CSS styles
-│   └── templates/      # HTML file (index.html)
-├── app.py              # Main Flask server
-├── .env                # API Keys (Excluded from Git)
+├── app.py              # Main Flask application
+├── static/             # Static files
+│   └── style.css       # Custom CSS styling
+├── templates/          # HTML templates
+│   └── index.html      # Main application interface
+├── .env                # Environment variables (Excluded from git)
+├── .env.example        # Example environment variables
 ├── requirements.txt    # Python dependencies
-└── .gitignore          # Files ignored by Git
+├── vercel.json         # Vercel deployment configuration
+└── .gitignore          # Files ignored by git
 ```
 
 ## ⚙️ Setup & Installation
@@ -32,8 +35,8 @@ Follow these steps to run the project locally:
 
 ### 1. Clone the repository
 ```bash
-git clone <your-repo-link>
-cd "IIOT project 3"
+git clone https://github.com/singhneha139222-desig/ai_quiz_app.git
+cd ai_quiz_app
 ```
 
 ### 2. Create a Virtual Environment
